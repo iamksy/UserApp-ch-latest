@@ -1,38 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-ko\\values-ko.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1824",
-                        "endColumns": "100",
-                        "endOffsets": "1920"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-ko\\values-ko.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,200,294,396,478,576,682,761,837,917,1015,1110,1205,1305,1401,1500,1652,1746",
-                        "endColumns": "94,93,101,81,97,105,78,75,79,97,94,94,99,95,98,151,93,77",
-                        "endOffsets": "195,289,391,473,571,677,756,832,912,1010,1105,1200,1300,1396,1495,1647,1741,1819"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-mk_values-mk.arsc.flat",
             "map": [
                 {
@@ -60,6 +28,38 @@
                         "startOffsets": "105,213,317,425,511,616,735,818,900,987,1093,1200,1301,1408,1519,1623,1779,1877",
                         "endColumns": "107,103,107,85,104,118,82,81,86,105,106,100,106,110,103,155,97,83",
                         "endOffsets": "208,312,420,506,611,730,813,895,982,1088,1195,1296,1403,1514,1618,1774,1872,1956"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-ko_values-ko.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1824",
+                        "endColumns": "100",
+                        "endOffsets": "1920"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-ko\\values-ko.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,200,294,396,478,576,682,761,837,917,1015,1110,1205,1305,1401,1500,1652,1746",
+                        "endColumns": "94,93,101,81,97,105,78,75,79,97,94,94,99,95,98,151,93,77",
+                        "endOffsets": "195,289,391,473,571,677,756,832,912,1010,1105,1200,1300,1396,1495,1647,1741,1819"
                     }
                 }
             ]
@@ -241,20 +241,20 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
+            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rGB_values-en-rGB.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,314,428,514,625,741,821,900,984,1093,1200,1301,1409,1514,1621,1782,1881",
-                        "endColumns": "104,103,113,85,110,115,79,78,83,108,106,100,107,104,106,160,98,83",
-                        "endOffsets": "205,309,423,509,620,736,816,895,979,1088,1195,1296,1404,1509,1616,1777,1876,1960"
+                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
+                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
+                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
                     }
                 },
                 {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-en-rGB\\values-en-rGB.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -265,9 +265,9 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1965",
+                        "startOffsets": "1907",
                         "endColumns": "100",
-                        "endOffsets": "2061"
+                        "endOffsets": "2003"
                     }
                 }
             ]
@@ -305,20 +305,20 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rGB_values-en-rGB.arsc.flat",
+            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
-                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
-                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
+                        "startOffsets": "105,210,314,428,514,625,741,821,900,984,1093,1200,1301,1409,1514,1621,1782,1881",
+                        "endColumns": "104,103,113,85,110,115,79,78,83,108,106,100,107,104,106,160,98,83",
+                        "endOffsets": "205,309,423,509,620,736,816,895,979,1088,1195,1296,1404,1509,1616,1777,1876,1960"
                     }
                 },
                 {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-en-rGB\\values-en-rGB.xml",
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -329,9 +329,9 @@
                     "to": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "1907",
+                        "startOffsets": "1965",
                         "endColumns": "100",
-                        "endOffsets": "2003"
+                        "endOffsets": "2061"
                     }
                 }
             ]
@@ -483,38 +483,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1934",
-                        "endColumns": "100",
-                        "endOffsets": "2030"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-de\\values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,308,420,506,611,726,803,879,961,1072,1175,1274,1385,1487,1594,1750,1852",
-                        "endColumns": "104,97,111,85,104,114,76,75,81,110,102,98,110,101,106,155,101,81",
-                        "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,1929"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-fa_values-fa.arsc.flat",
             "map": [
                 {
@@ -542,6 +510,38 @@
                         "startOffsets": "1948",
                         "endColumns": "100",
                         "endOffsets": "2044"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1934",
+                        "endColumns": "100",
+                        "endOffsets": "2030"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,308,420,506,611,726,803,879,961,1072,1175,1274,1385,1487,1594,1750,1852",
+                        "endColumns": "104,97,111,85,104,114,76,75,81,110,102,98,110,101,106,155,101,81",
+                        "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,1929"
                     }
                 }
             ]
@@ -739,38 +739,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-tr_values-tr.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,309,421,506,612,732,811,887,966,1073,1178,1274,1381,1483,1591,1747,1845",
-                        "endColumns": "104,98,111,84,105,119,78,75,78,106,104,95,106,101,107,155,97,78",
-                        "endOffsets": "205,304,416,501,607,727,806,882,961,1068,1173,1269,1376,1478,1586,1742,1840,1919"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-tr\\values-tr.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1924",
-                        "endColumns": "100",
-                        "endOffsets": "2020"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
@@ -798,6 +766,38 @@
                         "startOffsets": "1810",
                         "endColumns": "101",
                         "endOffsets": "1907"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-tr_values-tr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,309,421,506,612,732,811,887,966,1073,1178,1274,1381,1483,1591,1747,1845",
+                        "endColumns": "104,98,111,84,105,119,78,75,78,106,104,95,106,101,107,155,97,78",
+                        "endOffsets": "205,304,416,501,607,727,806,882,961,1068,1173,1269,1376,1478,1586,1742,1840,1919"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-tr\\values-tr.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1924",
+                        "endColumns": "100",
+                        "endOffsets": "2020"
                     }
                 }
             ]
@@ -931,38 +931,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-ms_values-ms.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
-                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
-                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-ms\\values-ms.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1945",
-                        "endColumns": "100",
-                        "endOffsets": "2041"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
             "map": [
                 {
@@ -990,6 +958,38 @@
                         "startOffsets": "105,215,321,430,516,620,740,816,892,977,1085,1194,1296,1407,1507,1615,1780,1878",
                         "endColumns": "109,105,108,85,103,119,75,75,84,107,108,101,110,99,107,164,97,79",
                         "endOffsets": "210,316,425,511,615,735,811,887,972,1080,1189,1291,1402,1502,1610,1775,1873,1953"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\res\\merged\\debug\\values-ms_values-ms.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8ba051f8bd3f0733a356d5b90e9c1063\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,321,429,516,620,731,809,888,968,1080,1189,1286,1395,1498,1605,1764,1865",
+                        "endColumns": "110,104,107,86,103,110,77,78,79,111,108,96,108,102,106,158,100,79",
+                        "endOffsets": "211,316,424,511,615,726,804,883,963,1075,1184,1281,1390,1493,1600,1759,1860,1940"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\syk31\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\9cd58fd3ec8a6e74879e8b14a75d885e\\res\\values-ms\\values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1945",
+                        "endColumns": "100",
+                        "endOffsets": "2041"
                     }
                 }
             ]
