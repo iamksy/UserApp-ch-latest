@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jun 05 14:08:29 KST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+0.path=classes.dex
+0.set=DEX
+count=1

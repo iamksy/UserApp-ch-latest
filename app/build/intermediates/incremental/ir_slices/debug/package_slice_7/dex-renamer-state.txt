@@ -1,0 +1,4 @@
+#Mon Jun 04 17:13:04 KST 2018
+base.0=C\:\\Users\\syk31\\StudioProjects\\UserApp-ch-latest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex
