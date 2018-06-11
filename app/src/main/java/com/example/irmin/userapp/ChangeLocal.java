@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
@@ -37,7 +38,6 @@ public class ChangeLocal extends Fragment {
 
         ArrayList<String> localList = new ArrayList<String>();
         localList.add("제주");
-        localList.add("서울");
 
         ArrayAdapter<String> adapter;
         adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_expandable_list_item_1, localList);
@@ -45,14 +45,20 @@ public class ChangeLocal extends Fragment {
         ListView listView = (ListView) view.findViewById(R.id.list1);
         listView.setAdapter(adapter);
 
-        Fragment frg2 = null;
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                
+                Fragment frg2 = null;
 
-        frg2 = new LocalA();
-        FragmentManager fm =getFragmentManager();
-        FragmentTransaction fragmentTransaction = fm.beginTransaction();
-        fragmentTransaction.replace(R.id.localA, frg2);
-        fragmentTransaction.addToBackStack(null);
-        fragmentTransaction.commit();
+                frg2 = new LocalA();
+                FragmentManager fm =getFragmentManager();
+                FragmentTransaction fragmentTransaction = fm.beginTransaction();
+                fragmentTransaction.replace(R.id.localA, frg2);
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
+            }
+        });
 
         return view;
     }

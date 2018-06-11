@@ -50,6 +50,15 @@ public class eventAdapter extends BaseAdapter {
         TextView amount = (TextView) convertView.findViewById(R.id.amount2);
         amount.setText(item.getAmount2());
 
+        TextView cate = (TextView) convertView.findViewById(R.id.category2);
+        cate.setText(item.getCategory2());
+
+        TextView tel = (TextView) convertView.findViewById(R.id.tel2);
+        tel.setText(item.getTel2());
+
+        TextView add = (TextView) convertView.findViewById(R.id.add2);
+        add.setText(item.getAdd2());
+
         return convertView;
     }
 }

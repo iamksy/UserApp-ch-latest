@@ -37,14 +37,17 @@ import java.util.HashMap;
 public class EventFragment extends Fragment implements View.OnClickListener{
 
     private static final String TAG_JSON = "webnautes";
-    private static final String TAG_NUM = "eventNum";
-    private static final String TAG_ID = "userID";
+//    private static final String TAG_NUM = "eventNum";
+    private  static final String TAG_CATEGORY = "category";
+    private static final String TAG_TEL = "userTel";
+    private static final String TAG_AREA = "userArea";
+    private static final String TAG_ADD = "userAddress";
     private static final String TAG_TITLE = "eventTitle";
     private static final String TAG_CONTENT = "eventContent";
     private static final String TAG_START = "startTime";
     private static final String TAG_CLOSE = "closeTime";
     private static final String TAG_AMOUNT = "amount";
-    private static final String TAG_IMG = "eventImg";
+//    private static final String TAG_IMG = "eventImg";
 
     long now = System.currentTimeMillis()+32400000;
 
@@ -59,9 +62,7 @@ public class EventFragment extends Fragment implements View.OnClickListener{
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        getActivity().setTitle("제주 제주시 연동");
-
-        String userID = "123";
+        String userArea = getActivity().getTitle().toString();
 
         View view = inflater.inflate(R.layout.fragment_event, container, false);
         list = (ListView) view.findViewById(R.id.eventListView);
@@ -70,7 +71,7 @@ public class EventFragment extends Fragment implements View.OnClickListener{
 
         GetData task = new GetData();
         try {
-            task.execute("http://irmin95.cafe24.com/EventListNow.php?userID=" + URLEncoder.encode(userID,"UTF-8") + "&now=" + URLEncoder.encode(strNow,"UTF-8"));
+            task.execute("http://irmin95.cafe24.com/EventListUser.php?userArea=" + URLEncoder.encode(userArea,"UTF-8") + "&now=" + URLEncoder.encode(strNow,"UTF-8"));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -149,7 +150,10 @@ private class GetData extends AsyncTask<String, Void, String> {
                 JSONObject c = ja.getJSONObject(i);
 
 //                String num = c.optString(TAG_NUM);
-                String id = c.optString(TAG_ID);
+                String cate = c.optString(TAG_CATEGORY);
+                String tel = c.optString(TAG_TEL);
+                String area = c.optString(TAG_AREA);
+                String add = c.optString(TAG_ADD);
                 String title = c.optString(TAG_TITLE);
                 String content = c.optString(TAG_CONTENT);
                 String start = c.optString(TAG_START);
@@ -160,7 +164,10 @@ private class GetData extends AsyncTask<String, Void, String> {
                 HashMap<String, String> list = new HashMap<>();
 
 //                list.put(TAG_NUM, num);
-                list.put(TAG_ID, id);
+                list.put(TAG_CATEGORY, cate);
+                list.put(TAG_TEL,tel);
+                list.put(TAG_AREA, area);
+                list.put(TAG_ADD,add);
                 list.put(TAG_TITLE, title);
                 list.put(TAG_CONTENT, content);
                 list.put(TAG_START, start);
@@ -173,8 +180,8 @@ private class GetData extends AsyncTask<String, Void, String> {
 
             ListAdapter adapter = new SimpleAdapter(
                     getActivity(), eventList, R.layout.event,
-                    new String[]{ TAG_AMOUNT, TAG_TITLE, TAG_CONTENT, TAG_START, TAG_CLOSE},
-                    new int[]{ R.id.amount, R.id.eventTitle, R.id.eventContent, R.id.startTime, R.id.closeTime}
+                    new String[]{ TAG_CATEGORY, TAG_ADD, TAG_TEL,TAG_AMOUNT, TAG_TITLE, TAG_CONTENT, TAG_START, TAG_CLOSE},
+                    new int[]{ R.id.Category, R.id.Add, R.id.Tel ,R.id.amount, R.id.eventTitle, R.id.eventContent, R.id.startTime, R.id.closeTime}
             );
 
 
@@ -186,10 +193,16 @@ private class GetData extends AsyncTask<String, Void, String> {
 
                     Intent intent = new Intent(getContext(), openEvent.class);
 
+                    String category = eventList.get(position).get(TAG_CATEGORY);
                     String title = eventList.get(position).get(TAG_TITLE);
                     String content = eventList.get(position).get(TAG_CONTENT);
                     String amount = eventList.get(position).get(TAG_AMOUNT);
+                    String add = eventList.get(position).get(TAG_ADD);
+                    String tel = eventList.get(position).get(TAG_TEL);
 
+                    intent.putExtra("cate2", category);
+                    intent.putExtra("tel2", tel);
+                    intent.putExtra("add2", add);
                     intent.putExtra("title2", title);
                     intent.putExtra("content2",content);
                     intent.putExtra("amount2", amount);
